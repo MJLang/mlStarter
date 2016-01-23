@@ -15,6 +15,7 @@ module.exports = {
     server: {
       tsconfig: "./tsconfig.json",
       development: {
+        src: ["./server.ts", "./server/**/*.ts"],
         dest: development
       }
     }
