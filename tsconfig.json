@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": false
+  },
+  "filesGlob": [
+    "./server/**/*.ts",
+    "!./node_modules"
+  ],
+  "files": [
+    "server.ts",
+    "./server/configs/express.ts",
+    "./server/configs/config.ts",
+    "./server/configs/env/development.ts",
+    "./server/configs/env/test.ts",
+    "./server/configs/env/production.ts",
+    "./server/configs/env/all.ts",
+    "./server/configs/routes/index.ts"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false
+}
