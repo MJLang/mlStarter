@@ -20,8 +20,7 @@
     "./server/configs/env/production.ts",
     "./server/configs/env/test.ts",
     "./server/configs/express.ts",
-    "./server/configs/routes/index.ts",
-    "./data/user.ts"
+    "./server/configs/routes/index.ts"
   ],
   "compileOnSave": false,
   "buildOnSave": false,

@@ -16,7 +16,6 @@
   ],
   "files": [
     "./src/app.ts",
-    "./../data/user.ts",
     "./typings/tsd.d.ts"
   ],
   "compileOnSave": false,

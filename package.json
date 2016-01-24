@@ -1,7 +1,7 @@
 {
   "name": "ml-starter",
   "version": "1.0.0",
-  "description": "5340 Admin Panel",
+  "description": "A TS+Gulp+Express+Webpack Starter",
   "main": "server.js",
   "scripts": {
     "test": ""
@@ -11,8 +11,11 @@
   "devDependencies": {
     "browser-sync": "^2.11.1",
     "browser-sync-webpack-plugin": "^1.0.1",
+    "css-loader": "^0.23.1",
     "del": "^2.2.0",
     "eslint": "^1.10.3",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
     "gulp": "^3.9.0",
     "gulp-debug": "^2.1.2",
     "gulp-nodemon": "^2.0.6",
@@ -22,11 +25,14 @@
     "gulp-util": "^3.0.7",
     "handlebars-loader": "^1.1.4",
     "html-webpack-plugin": "^2.7.1",
-    "jade-loader": "^0.8.0",
     "ng-annotate-loader": "^0.1.0",
     "nodemon": "^1.8.1",
+    "postcss-loader": "^0.8.0",
     "require-dir": "^0.3.0",
+    "resolve-url-loader": "^1.4.3",
     "run-sequence": "^1.1.5",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
     "ts-loader": "^0.8.0",
     "tslint": "^3.3.0",
     "typescript": "^1.7.5",

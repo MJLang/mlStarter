@@ -1,15 +1,6 @@
 /// <reference path="./../typings/tsd.d.ts" />
+declare var require: any;
 
-import {WDUser} from "../../data/user";
-import {module} from "angular";
+require('./../styles/main.scss');
 
-let user = new WDUser();
-user.email = "foobar@foobar.com";
-console.log(user);
-
-console.log('oida');
-
-module("Foobar", []);
-module("Foobar").run(function() {
-  console.log("Hello Angular");
-});
+console.log("Hello World");
