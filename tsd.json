@@ -12,7 +12,7 @@
       "commit": "a9680ac2efd3add0d38cd0331f30ad497d9dd1e0"
     },
     "node/node.d.ts": {
-      "commit": "a9680ac2efd3add0d38cd0331f30ad497d9dd1e0"
+      "commit": "7fffbd3e040a93c244777e3be04cd6223ac69301"
     },
     "serve-static/serve-static.d.ts": {
       "commit": "a9680ac2efd3add0d38cd0331f30ad497d9dd1e0"
@@ -31,6 +31,12 @@
     },
     "csurf/csurf.d.ts": {
       "commit": "a9680ac2efd3add0d38cd0331f30ad497d9dd1e0"
+    },
+    "express-handlebars/express-handlebars.d.ts": {
+      "commit": "7fffbd3e040a93c244777e3be04cd6223ac69301"
+    },
+    "es6-promise/es6-promise.d.ts": {
+      "commit": "7fffbd3e040a93c244777e3be04cd6223ac69301"
     }
   }
 }

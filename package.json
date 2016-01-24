@@ -1,33 +1,45 @@
 {
-  "name": "5340",
+  "name": "ml-starter",
   "version": "1.0.0",
   "description": "5340 Admin Panel",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "browser-sync-webpack-plugin": "^1.0.1",
     "del": "^2.2.0",
     "eslint": "^1.10.3",
-    "eslint-config-airbnb": "^4.0.0",
     "gulp": "^3.9.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-nodemon": "^2.0.6",
     "gulp-plumber": "^1.0.1",
     "gulp-typescript": "^2.10.0",
     "gulp-util": "^3.0.7",
-    "jspm": "^0.16.24",
+    "handlebars-loader": "^1.1.4",
+    "html-webpack-plugin": "^2.7.1",
+    "jade-loader": "^0.8.0",
+    "ng-annotate-loader": "^0.1.0",
+    "nodemon": "^1.8.1",
     "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.5",
+    "ts-loader": "^0.8.0",
     "tslint": "^3.3.0",
-    "typescript": "^1.7.5"
+    "typescript": "^1.7.5",
+    "webpack": "^1.12.12",
+    "webpack-stream": "^3.1.0"
   },
   "dependencies": {
     "body-parser": "^1.14.2",
     "cookie-parser": "^1.4.1",
     "csurf": "^1.8.3",
     "express": "^4.13.4",
+    "express-handlebars": "^2.0.1",
     "express-session": "^1.13.0",
-    "jade": "^1.11.0",
+    "handlebars": "^4.0.5",
     "morgan": "^1.6.1"
   }
 }

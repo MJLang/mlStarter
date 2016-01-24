@@ -1,7 +1,7 @@
 const gulp = require("gulp");
-const config = require("./config");
+const config = require("./../config");
 
-gulp.task("watch", function () {
+gulp.task("watch", ['dev.ts.server'] , function () {
   // Watch TS Server
   gulp.watch(config.typescript.server.development.src, ['dev.ts.server']);
 });

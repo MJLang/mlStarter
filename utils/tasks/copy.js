@@ -1,7 +1,7 @@
 "use strict";
 
 const gulp = require("gulp");
-const path = require("./config").copy;
+const path = require("./../config").copy;
 
 gulp.task("dev.copy", () => {
   gulp.src(path.serverViews.development.src)
